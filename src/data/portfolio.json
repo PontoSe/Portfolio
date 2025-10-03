@@ -1,0 +1,194 @@
+[
+  {
+    "slug": "projeto01",
+    "name": "Projeto 01",
+    "subtitle": "Subtítulo do projeto 01",
+  "description": "Descrição projeto01 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto01 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/1",
+    "assets": {
+      "profile": "/assets/projeto01/profile.svg",
+      "gallery": [
+        "/assets/projeto01/01.svg",
+        "/assets/projeto01/02.svg",
+        "/assets/projeto01/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto02",
+    "name": "Projeto 02",
+    "subtitle": "Subtítulo do projeto 02",
+  "description": "Descrição projeto02 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto02 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/2",
+    "assets": {
+      "profile": "/assets/projeto02/profile.svg",
+      "gallery": [
+        "/assets/projeto02/01.svg",
+        "/assets/projeto02/02.svg",
+        "/assets/projeto02/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto03",
+    "name": "Projeto 03",
+    "subtitle": "Subtítulo do projeto 03",
+  "description": "Descrição projeto03 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto03 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/3",
+    "assets": {
+      "profile": "/assets/projeto03/profile.svg",
+      "gallery": [
+        "/assets/projeto03/01.svg",
+        "/assets/projeto03/02.svg",
+        "/assets/projeto03/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto04",
+    "name": "Projeto 04",
+    "subtitle": "Subtítulo do projeto 04",
+  "description": "Descrição projeto04 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto04 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/4",
+    "assets": {
+      "profile": "/assets/projeto04/profile.svg",
+      "gallery": [
+        "/assets/projeto04/01.svg",
+        "/assets/projeto04/02.svg",
+        "/assets/projeto04/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto05",
+    "name": "Projeto 05",
+    "subtitle": "Subtítulo do projeto 05",
+  "description": "Descrição projeto05 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto05 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/5",
+    "assets": {
+      "profile": "/assets/projeto05/profile.svg",
+      "gallery": [
+        "/assets/projeto05/01.svg",
+        "/assets/projeto05/02.svg",
+        "/assets/projeto05/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto06",
+    "name": "Projeto 06",
+    "subtitle": "Subtítulo do projeto 06",
+  "description": "Descrição projeto06 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto06 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/6",
+    "assets": {
+      "profile": "/assets/projeto06/profile.svg",
+      "gallery": [
+        "/assets/projeto06/01.svg",
+        "/assets/projeto06/02.svg",
+        "/assets/projeto06/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto07",
+    "name": "Projeto 07",
+    "subtitle": "Subtítulo do projeto 07",
+  "description": "Descrição projeto07 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto07 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/7",
+    "assets": {
+      "profile": "/assets/projeto07/profile.svg",
+      "gallery": [
+        "/assets/projeto07/01.svg",
+        "/assets/projeto07/02.svg",
+        "/assets/projeto07/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto08",
+    "name": "Projeto 08",
+    "subtitle": "Subtítulo do projeto 08",
+  "description": "Descrição projeto08 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto08 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/8",
+    "assets": {
+      "profile": "/assets/projeto08/profile.svg",
+      "gallery": [
+        "/assets/projeto08/01.svg",
+        "/assets/projeto08/02.svg",
+        "/assets/projeto08/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto09",
+    "name": "Projeto 09",
+    "subtitle": "Subtítulo do projeto 09",
+  "description": "Descrição projeto09 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto09 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/9",
+    "assets": {
+      "profile": "/assets/projeto09/profile.svg",
+      "gallery": [
+        "/assets/projeto09/01.svg",
+        "/assets/projeto09/02.svg",
+        "/assets/projeto09/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto10",
+    "name": "Projeto 10",
+    "subtitle": "Subtítulo do projeto 10",
+  "description": "Descrição projeto10 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto10 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/10",
+    "assets": {
+      "profile": "/assets/projeto10/profile.svg",
+      "gallery": [
+        "/assets/projeto10/01.svg",
+        "/assets/projeto10/02.svg",
+        "/assets/projeto10/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto11",
+    "name": "Projeto 11",
+    "subtitle": "Subtítulo do projeto 11",
+  "description": "Descrição projeto11 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto11 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/11",
+    "assets": {
+      "profile": "/assets/projeto11/profile.svg",
+      "gallery": [
+        "/assets/projeto11/01.svg",
+        "/assets/projeto11/02.svg",
+        "/assets/projeto11/03.svg"
+      ]
+    }
+  },
+  {
+    "slug": "projeto12",
+    "name": "Projeto 12",
+    "subtitle": "Subtítulo do projeto 12",
+  "description": "Descrição projeto12 lorem ipsum dolor sit amet, consectetur adipiscing elit. Esta é a descrição do projeto12 que contém texto exemplo para visualização.",
+    "team": ["membro01", "membro02", "membro03", "membro04"],
+  "link": "https://en.wikipedia.org/wiki/12",
+    "assets": {
+      "profile": "/assets/projeto12/profile.svg",
+      "gallery": [
+        "/assets/projeto12/01.svg",
+        "/assets/projeto12/02.svg",
+        "/assets/projeto12/03.svg"
+      ]
+    }
+  }
+]
