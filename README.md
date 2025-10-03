@@ -1,15 +1,3 @@
-## Visão geral (resumida)
-
-Lista rápida dos arquivos e pastas principais (uma linha cada):
-
-- `src/app/page.js` → entrada da página inicial.
-- `src/app/layout.js` → layout global e wrappers do app.
-- `src/app/portfolio/page.jsx` → página do portfólio que exibe o carrossel/lista de projetos.
-- `src/app/portfolio/[slug]/page.jsx` → ProjectDetail: mostra detalhes do projeto, galeria e QRCode.
-- `src/components/Carousel3D.jsx` → carrossel 3D (lê `src/data/portfolio.json`).
-- `src/components/CarouselReal.jsx` → carrossel alternativo/simplificado (lê `src/data/portfolio.json`).
-- `src/components/NavigationBarSection.jsx` → barra de navegação do site.
-- `src/components/*` → componentes diversos (AboutUsSection, FooterSection, etc.).
 # 📌 Visão Geral (resumida)
 
 Lista rápida dos arquivos/pastas principais (uma linha cada):
@@ -112,12 +100,3 @@ Copie este objeto e cole dentro do array em `src/data/portfolio.json`. Substitua
 - **Fonte única da verdade:** `src/data/portfolio.json` — edite sempre lá.
 - **Boas práticas:** mantenha os nomes padrão das imagens por pasta (`profile.svg`, `01.svg`, `02.svg`, `03.svg`).
 - **Deploy:** alterações em `src/data/portfolio.json` ou em `public/assets` podem requerer rebuild/redeploy em produção.
-
----
-
-Se quiser, eu adiciono um `src/data/README.md` com este template ao lado do JSON.
----
-
-Se quiser, posso adicionar um `src/data/README.md` com este template ao lado do JSON.
-
-
