@@ -106,7 +106,8 @@ export default function PortfolioPage() {
         </div>
 
         <div className="relative h-full w-full flex items-center justify-center">
-          <Carousel3D />
+          {/* Pass index (externalCenter) e onCenterChange para manter as bolinhas sincronizadas */}
+          <Carousel3D externalCenter={index} onCenterChange={(c) => { if (!animating) setIndex(c); else setIndex(c); }} />
         </div>
 
         {/* tiny indicators */}

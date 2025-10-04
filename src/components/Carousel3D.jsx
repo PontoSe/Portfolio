@@ -16,7 +16,7 @@ const getCardStates = (length, centerIdx) => {
   return states;
 };
 
-export default function Carousel3D() {
+export default function Carousel3D({ externalCenter, onCenterChange }) {
   const [center, setCenter] = useState(0);
   const length = data.length;
   const inactivityTimerRef = useRef(null);
@@ -48,6 +48,24 @@ export default function Carousel3D() {
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // when internal center changes, notify parent if callback provided
+  useEffect(() => {
+    if (typeof onCenterChange === "function") {
+      onCenterChange(center);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [center]);
+
+  // if parent forces an external center, sync it into internal state
+  useEffect(() => {
+    if (typeof externalCenter === "number" && externalCenter !== center) {
+      // treat this as user activity (stop/restart autoplay)
+      handleUserActivity();
+      setCenter(externalCenter);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [externalCenter]);
 
   const clearInactivityTimer = () => {
     if (inactivityTimerRef.current) {
