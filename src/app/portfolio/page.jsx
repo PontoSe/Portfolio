@@ -109,10 +109,10 @@ export default function PortfolioPage() {
           {/* Pass index (externalCenter) e onCenterChange para manter as bolinhas sincronizadas */}
           <Carousel3D externalCenter={index} onCenterChange={(c) => { if (!animating) setIndex(c); else setIndex(c); }} />
         </div>
-
-        {/* tiny indicators */}
-        {count > 1 && (
-          <div className="absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 flex gap-2 bg-black/40 border border-white/10 backdrop-blur px-3 py-2 rounded-full">
+      </main>
+      {/* tiny indicators */}
+      {count > 1 && (
+          <div className="absolute bottom-10 sm:bottom-10 left-1/2 -translate-x-1/2 flex gap-2 bg-black/40 border border-white/10 backdrop-blur px-3 py-2 rounded-full">
             {projects.map((p, i) => (
               <button
                 key={p.slug}
@@ -123,7 +123,6 @@ export default function PortfolioPage() {
             ))}
           </div>
         )}
-      </main>
     </div>
   );
 }
