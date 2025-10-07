@@ -175,7 +175,7 @@ export default function Carousel3D({ externalCenter, onCenterChange }) {
 
       {/* Carrossel */}
   <div
-    className="relative flex items-center justify-center w-full max-w-5xl h-[58vh] sm:h-[62vh] md:h-[70vh] max-h-[680px]"
+    className="relative flex items-center justify-center w-full max-w-6xl h-[62vh] sm:h-[66vh] md:h-[74vh] max-h-[760px]"
     onPointerDown={handleUserActivity}
     onPointerMove={handleUserActivity}
     onTouchStart={handleUserActivity}
@@ -202,7 +202,7 @@ export default function Carousel3D({ externalCenter, onCenterChange }) {
             <div key={item.slug} style={baseStyle} tabIndex={isCenter ? 0 : -1} aria-hidden={!isCenter}>
               <Link
                 href={`/portfolio/${item.slug}`}
-                className={`pointer-events-auto group block w-[88vw] sm:w-[80vw] md:w-[64vw] max-w-[980px] h-[58vh] sm:h-[62vh] md:h-[70vh] max-h-[680px] rounded-[28px] overflow-hidden relative shadow-2xl ${isCenter ? 'ring-1 ring-white/10' : ''}`}
+                className={`pointer-events-auto group block w-[92vw] sm:w-[86vw] md:w-[72vw] lg:w-[68vw] max-w-[1100px] h-[62vh] sm:h-[66vh] md:h-[74vh] max-h-[760px] rounded-[28px] overflow-hidden relative shadow-2xl ${isCenter ? 'ring-1 ring-white/10' : ''}`}
               >
                 <div className="absolute inset-0">
                   <img
